@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Arrow from "../../../Helpers/icons/Arrow";
 import FontAwesomeCom from "../../../Helpers/icons/FontAwesomeCom";
-import Multivendor from "../../../Shared/Multivendor";
+// import Multivendor from "../../../Shared/Multivendor";
 import ServeLangItem from "../../../Helpers/ServeLangItem";
 export default function Navbar({ className }) {
   const { websiteSetup } = useSelector((state) => state.websiteSetup);
@@ -420,7 +420,7 @@ export default function Navbar({ className }) {
                     </div>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link href="/sellers" passHref>
                       <a rel="noopener noreferrer">
                         <span className="flex items-center text-sm font-600 cursor-pointer text-qblack ">
@@ -428,7 +428,7 @@ export default function Navbar({ className }) {
                         </span>
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/blogs" passHref>
                       <a rel="noopener noreferrer">
@@ -494,7 +494,7 @@ export default function Navbar({ className }) {
                                     </a>
                                   </Link>
                                 </li>
-                                {Multivendor() === 1 && (
+                                {/* {Multivendor() === 1 && (
                                   <li>
                                     <Link
                                       href="seller-terms-condition"
@@ -510,7 +510,7 @@ export default function Navbar({ className }) {
                                       </a>
                                     </Link>
                                   </li>
-                                )}
+                                )} */}
                                 <li>
                                   <Link href="/faq" passHref>
                                     <a rel="noopener noreferrer">
@@ -563,7 +563,7 @@ export default function Navbar({ className }) {
                 </ul>
               </div>
             </div>
-            {Multivendor() === 1 && (
+            {/* {Multivendor() === 1 && (
               <div className="become-seller-btn">
                 <Link href="/become-seller" passHref>
                   <a rel="noopener noreferrer">
@@ -601,7 +601,7 @@ export default function Navbar({ className }) {
                   </a>
                 </Link>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>
