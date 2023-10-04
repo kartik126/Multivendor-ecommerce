@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Provider store={store}>
         <MessageContext.Provider
-            value={{ toggle: toggleMessage, toggleHandler: toggleHandler,newSeller:addNewSeller }}
+            value={{ toggle: toggleMessage, toggleHandler: toggleHandler}}
         >
           <LoginContext.Provider
               value={{ loginPopup: loginPopup, handlerPopup: handlerPopup }}
