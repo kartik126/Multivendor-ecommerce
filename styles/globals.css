@@ -50,7 +50,7 @@
 
 /*TODO:  ========= default ========= */
 :root{
-  --primary-color:#ffbb38;
+  --primary-color:#ffbb38 !important;
   --secondary-color:red;
 }
 *,
