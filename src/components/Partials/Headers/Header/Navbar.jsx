@@ -95,10 +95,10 @@ export default function Navbar({ className }) {
                               <div className=" flex justify-between items-center px-5 h-10 transition-all duration-300 ease-in-out cursor-pointer">
                                 <div className="flex items-center rtl:space-x-reverse space-x-6">
                                   <span>
-                                    <FontAwesomeCom
+                                    {/* <FontAwesomeCom
                                       className="w-4 h-4"
                                       icon={item.icon}
-                                    />
+                                    /> */}
                                   </span>
                                   <span className="text-xs font-400">
                                     {item.name}

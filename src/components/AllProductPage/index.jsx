@@ -509,7 +509,7 @@ export default function AllProductPage({ response, sellerInfo }) {
                   className="mb-[30px]"
                   variantsFilter={variantsFilter}
                 />
-                {response.data && response.data.shopPageSidebarBanner && (
+                {/* {response.data && response.data.shopPageSidebarBanner && (
                   <div
                     style={{
                       backgroundImage: `url(${
@@ -587,7 +587,7 @@ export default function AllProductPage({ response, sellerInfo }) {
                       </div>
                     </div>
                   </div>
-                )}
+                )} */}
               </div>
 
               <div className="flex-1">
@@ -706,14 +706,14 @@ export default function AllProductPage({ response, sellerInfo }) {
                         </DataIteration>
                       </div>
                     )}
-
+{/* 
                     <div className="w-full relative text-qblack mb-[40px]">
                       {response.data && response.data.shopPageCenterBanner && (
                         <OneColumnAdsTwo
                           data={response.data.shopPageCenterBanner}
                         />
                       )}
-                    </div>
+                    </div> */}
                     {products && cardViewStyle === "col" && (
                       <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:gap-[30px] gap-5 mb-[40px]">
                         <DataIteration

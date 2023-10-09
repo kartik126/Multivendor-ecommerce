@@ -82,14 +82,14 @@ export default function Home({ homepageData }) {
           />
         )}
 
-        {homepage && (
+        {/* {homepage && (
           <CampaignCountDown
             className="md:mb-[60px] mb-[30px]"
             flashSaleData={homepage.flashSale}
             downloadData={homepage.flashSaleSidebarBanner}
             lastDate={homepage.flashSale.end_time}
           />
-        )}
+        )} */}
         {homepage && (
           <ViewMoreTitle
             className="top-selling-product md:mb-[60px] mb-[30px]"
@@ -118,13 +118,13 @@ export default function Home({ homepageData }) {
           </ViewMoreTitle>
         )}
 
-        {homepage && (
+        {/* {homepage && (
           <TwoColumnAds
             bannerOne={homepage.twoColumnBannerOne}
             bannerTwo={homepage.twoColumnBannerTwo}
           />
-        )}
-        {homepage && (
+        )} */}
+        {/* {homepage && (
           <SectionStyleOne
             categories={
               homepage.featuredCategories.length > 0
@@ -145,8 +145,8 @@ export default function Home({ homepageData }) {
             seeMoreUrl={`/products?highlight=featured_product`}
             className="category-products md:mb-[60px] mb-[30px]"
           />
-        )}
-        {homepage && <OneColumnAdsOne data={homepage.singleBannerOne} />}
+        )} */}
+        {/* {homepage && <OneColumnAdsOne data={homepage.singleBannerOne} />} */}
         {homepage && (
           <SectionStyleThree
             products={
@@ -165,13 +165,13 @@ export default function Home({ homepageData }) {
           />
         )}
 
-        {homepage && (
+        {/* {homepage && (
           <div className="w-full text-white md:mb-[60px] mb-[30px]">
             <div className="container-x mx-auto">
               <OneColumnAdsTwo data={homepage.singleBannerTwo} />
             </div>
           </div>
-        )}
+        )} */}
         {homepage && (
           <SectionStyleFour
             products={

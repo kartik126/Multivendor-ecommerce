@@ -60,10 +60,10 @@ export default function Banner({
                               </div>
                               <div className="md:mb-[30px] mb-[15px]">
                                 <p className="md:text-[50px] text-[20px] leading-none text-qblack md:mb-3">
-                                  {item.title_one}
+                                  {/* {item.title_one} */}
                                 </p>
                                 <h1 className="md:text-[50px] text-[20px] md:w-[400px] md:leading-[66px] text-qblack font-bold">
-                                  {item.title_two}
+                                  {/* {item.title_two} */}
                                 </h1>
                               </div>
                               <div className="w-[90px]">
@@ -109,10 +109,10 @@ export default function Banner({
                       </div>
                       <div className="md:mb-[30px] mb-2.5">
                         <p className="md:text-[30px] leading-none text-qblack font-semibold md:mb-3">
-                          {sidebarImgOne.title_one}
+                          {/* {sidebarImgOne.title_one} */}
                         </p>
                         <h1 className="md:text-[30px] md:leading-[40px] text-qblack font-semibold">
-                          {sidebarImgOne.title_two}
+                          {/* {sidebarImgOne.title_two} */}
                         </h1>
                       </div>
                     </div>
@@ -184,10 +184,10 @@ export default function Banner({
                       </div>
                       <div className="md:mb-[30px] mb-2.5">
                         <p className="md:text-[30px] leading-none text-qblack font-semibold md:mb-3">
-                          {sidebarImgTwo.title_one}
+                          {/* {sidebarImgTwo.title_one} */}
                         </p>
                         <h1 className="md:text-[30px] md:leading-[40px] text-qblack font-semibold">
-                          {sidebarImgTwo.title_two}
+                          {/* {sidebarImgTwo.title_two} */}
                         </h1>
                       </div>
                     </div>
