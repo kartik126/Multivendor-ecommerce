@@ -320,7 +320,7 @@ function SignupWidget({ redirect = true, signupActionPopup,changeContent }) {
             </div>
           </div>
           {/*test buttton*/}
-          {
+          {/* {
               googleUrl && (
                   <>
                     <a
@@ -409,7 +409,7 @@ function SignupWidget({ redirect = true, signupActionPopup,changeContent }) {
                     </a>
                   </>
               )
-          }
+          } */}
 
           <div className="signup-area flex justify-center">
             <p className="text-base text-qgraytwo font-normal">
@@ -430,7 +430,7 @@ function SignupWidget({ redirect = true, signupActionPopup,changeContent }) {
             </p>
           </div>
         </div>
-        {
+        {/* {
           googleUrl && (
                 <>
                   <a
@@ -504,9 +504,9 @@ function SignupWidget({ redirect = true, signupActionPopup,changeContent }) {
                   </a>
                 </>
             )
-        }
+        } */}
 
-        <div className="signup-area flex justify-center">
+        {/* <div className="signup-area flex justify-center">
           <p className="text-base text-qgraytwo font-normal">
             {ServeLangItem()?.Already_have_an_Account}?
             {redirect ? (
@@ -523,7 +523,7 @@ function SignupWidget({ redirect = true, signupActionPopup,changeContent }) {
               </button>
             )}
           </p>
-        </div>
+        </div> */}
       </div>
   );
 }
