@@ -47,9 +47,9 @@ export default function Navbar({ className }) {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <rect width="14" height="1"  />
-                        <rect y="8" width="14" height="1"  />
-                        <rect y="4" width="10" height="1"  />
+                        <rect width="14" height="1" />
+                        <rect y="8" width="14" height="1" />
+                        <rect y="4" width="10" height="1" />
                       </svg>
                     </span>
                     <span className="text-sm font-600 text-qblacktext">
@@ -120,7 +120,6 @@ export default function Navbar({ className }) {
                                         width="5.78538"
                                         height="1.28564"
                                         transform="rotate(45 1.49805 0.818359)"
-
                                       />
                                       <rect
                                         x="5.58984"
@@ -128,7 +127,6 @@ export default function Navbar({ className }) {
                                         width="5.78538"
                                         height="1.28564"
                                         transform="rotate(135 5.58984 4.90918)"
-
                                       />
                                     </svg>
                                   </span>
@@ -181,7 +179,6 @@ export default function Navbar({ className }) {
                                                   width="5.78538"
                                                   height="1.28564"
                                                   transform="rotate(45 1.49805 0.818359)"
-
                                                 />
                                                 <rect
                                                   x="5.58984"
@@ -189,7 +186,6 @@ export default function Navbar({ className }) {
                                                   width="5.78538"
                                                   height="1.28564"
                                                   transform="rotate(135 5.58984 4.90918)"
-
                                                 />
                                               </svg>
                                             </span>
@@ -285,7 +281,7 @@ export default function Navbar({ className }) {
                   {/*    </div>*/}
                   {/*  </div>*/}
                   {/*</li>*/}
-                  <li>
+                  {/* <li>
                     <span className="flex items-center text-sm font-600 cursor-pointer text-qblack ">
                       <span>{ServeLangItem()?.Shop}</span>
                       <span className="ml-1.5 ">
@@ -395,7 +391,6 @@ export default function Navbar({ className }) {
                                               width="6.94219"
                                               height="1.54271"
                                               transform="rotate(45 2.08984 0.636719)"
-
                                             />
                                             <rect
                                               x="7"
@@ -403,7 +398,6 @@ export default function Navbar({ className }) {
                                               width="6.94219"
                                               height="1.54271"
                                               transform="rotate(135 7 5.54492)"
-
                                             />
                                           </svg>
                                         </span>
@@ -418,7 +412,7 @@ export default function Navbar({ className }) {
                         )}
                       </div>
                     </div>
-                  </li>
+                  </li> */}
 
                   {/* <li>
                     <Link href="/sellers" passHref>
