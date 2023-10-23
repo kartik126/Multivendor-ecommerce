@@ -6,8 +6,8 @@ export default function contactPage({ data }) {
   return (
     <>
       <PageHead
-        title={`${seoSetting.seo_title}`}
-        metaDes={seoSetting.seo_description}
+        title={`${seoSetting?.seo_title}`}
+        metaDes={seoSetting?.seo_description}
       />
       <Contact datas={data} />
     </>
@@ -15,7 +15,7 @@ export default function contactPage({ data }) {
 }
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}api/contact-us`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}api/admin/contact-us`);
   const data = await res.json();
   return { props: { data } };
 }

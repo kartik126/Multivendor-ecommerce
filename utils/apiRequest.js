@@ -19,7 +19,7 @@ export default {
   login: (data) =>
     instance({
       method: "POST",
-      url: "store-login",
+      url: "https://admin.kartiksharma.co/api/admin/login",
       data,
     }),
   logout: (token) =>
@@ -97,7 +97,7 @@ export default {
   contactUs: () =>
     instance({
       method: "GET",
-      url: "contact-us",
+      url: "https://admin.kartiksharma.co/api/admin/contact-us",
     }),
   addToCard: (query) =>
     instance({

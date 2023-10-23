@@ -82,7 +82,7 @@ function LoginWidget({ redirect = true, loginActionPopup, notVerifyHandler }) {
           setLoading(false);
           if (err.response) {
             if (
-                err.response.data.notification ===
+                err.response.data?.notification ===
                 "Please verify your acount. If you didn't get OTP, please resend your OTP and verify"
             ) {
               toast.warn(<SEND action={sendOtpHandler} />, {
